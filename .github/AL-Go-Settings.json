@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/827187f5045047e373a0f462021f5d4f1fcf2bd8/Actions/.Modules/settings.schema.json",
   "githubRunnerShell": "powershell",
   "conditionalSettings": [
     {
@@ -13,7 +14,6 @@
       }
     }
   ],
-  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/827187f5045047e373a0f462021f5d4f1fcf2bd8/Actions/.Modules/settings.schema.json",
   "templateUrl": "https://github.com/businesscentralapps/tmpcJVkFH-PTE@main",
   "githubRunner": "windows-latest",
   "useApproximateVersion": true,
@@ -24,5 +24,6 @@
   },
   "type": "PTE",
   "UseProjectDependencies": true,
-  "doNotPublishApps": true
+  "doNotPublishApps": true,
+  "templateSha": "4407c6b30b6c5b490a1afc9dea6d4b39f876a1b8"
 }
