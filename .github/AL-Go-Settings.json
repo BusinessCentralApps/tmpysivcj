@@ -1,6 +1,4 @@
 {
-  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/827187f5045047e373a0f462021f5d4f1fcf2bd8/Actions/.Modules/settings.schema.json",
-  "githubRunnerShell": "powershell",
   "conditionalSettings": [
     {
       "workflows": [
@@ -14,16 +12,19 @@
       }
     }
   ],
-  "templateUrl": "https://github.com/businesscentralapps/tmpcJVkFH-PTE@main",
-  "githubRunner": "windows-latest",
-  "useApproximateVersion": true,
   "MicrosoftTelemetryConnectionString": "",
-  "useCompilerFolder": true,
-  "incrementalBuilds": {
-    "onPush": true
-  },
-  "type": "PTE",
+  "templateSha": "4407c6b30b6c5b490a1afc9dea6d4b39f876a1b8",
+  "templateUrl": "https://github.com/businesscentralapps/tmpcJVkFH-PTE@main",
   "UseProjectDependencies": true,
   "doNotPublishApps": true,
-  "templateSha": "4407c6b30b6c5b490a1afc9dea6d4b39f876a1b8"
+  "incrementalBuilds": {
+    "onPush": true,
+    "mode": "modifiedProjects"
+  },
+  "githubRunner": "windows-latest",
+  "useCompilerFolder": true,
+  "useApproximateVersion": true,
+  "type": "PTE",
+  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/827187f5045047e373a0f462021f5d4f1fcf2bd8/Actions/.Modules/settings.schema.json",
+  "githubRunnerShell": "powershell"
 }
